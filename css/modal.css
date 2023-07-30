@@ -80,4 +80,5 @@
   font-family: 'IBM Plex Mono', monospace;
   font-weight: bold;
   margin-top: 1rem;
+  cursor: pointer;
 }
