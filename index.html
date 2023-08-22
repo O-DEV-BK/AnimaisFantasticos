@@ -17,12 +17,14 @@
       <button data-menu="button" aria-expanded="false" aria-controls="menu">menu</button>
       <ul data-menu="list" id="menu">
         <li><a href="#animais">animais</a></li>
-        <li data-dropdown=""><a href="sobre.html">Sobre</a> <ul class="dropdown-menu">
-          <li> <a href="empresa.html">Empresa</a></li>
-          <li> <a href="equipe.html">Equipe</a></li>
-          <li> <a href="socios.html">Socios</a></li>
-          <li> <a href="investidores.html">investidores</a></li>
-        </ul></li>
+        <li data-dropdown=""><a href="sobre.html">Sobre</a>
+          <ul class="dropdown-menu">
+            <li> <a href="empresa.html">Empresa</a></li>
+            <li> <a href="equipe.html">Equipe</a></li>
+            <li> <a href="socios.html">Socios</a></li>
+            <li> <a href="investidores.html">investidores</a></li>
+          </ul>
+        </li>
         <li><a href="#faq">faq</a></li>
         <li><a href="#contato">contato</a></li>
         <li><a data-modal="abrir" href="login.html">Login</a></li>
@@ -120,6 +122,11 @@
         <dd>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</dd>
       </dl>
     </section>
+    <section class="grid-section numeros" data-anime="scroll">
+      <h1 class="titulo">Números</h1>
+      <div class="numero-grid">
+      </div>
+    </section>
 
     <section class="grid-section contato" data-anime="scroll" id="contato">
       <h1 class="titulo">Contato</h1>
@@ -130,6 +137,8 @@
         <li>Lima.corporate@outlook.com</li>
         <li>+55 (021) 96551-0525</li>
         <li><a href="https://github.com/O-DEV-BK">github</a></li>
+        <li>Doe <span class="btc-preco">0</span> Bitcoin para nos ajudar</li>
+        <li data-semana="1,2,3,4,5" data-horario="8,18">Seg à Sex das 8 às 18</li>
       </ul>
     </section>
     <footer class="copy">
@@ -149,7 +158,7 @@
       </form>
     </div>
   </section>
-  <script type="module" src="script.js"></script>
+  <script type="module" src="./js/script.js"></script>
 </body>
 
 </html>

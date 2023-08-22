@@ -6,8 +6,9 @@ export default function initAnimacaoScroll() {
         const sectiontop = section.getBoundingClientRect().top
         if (sectiontop < 550)
           section.classList.add('ativo');
-        else
+        else if (section.classList.contains('ativo')) {
           section.classList.remove('ativo');
+        }
       })
     }
 

@@ -6,6 +6,9 @@ import initModal from './modules/modal.js';
 import initToolTip from './modules/tooltip.js';
 import initDropdownMenu from './modules/dopdown-menu.js';
 import initiMenuMobile from './modules/menu-mobile.js';
+import initfuncionamento from './modules/funcionamento.js';
+import initfetchAnimais from'./modules/fetch-animais.js';
+import initFetchBitcoin from './modules/fetch-bitcoin.js';
 
 
 initScrollSuave();
@@ -16,4 +19,6 @@ initModal();
 initToolTip();
 initDropdownMenu();
 initiMenuMobile();
-
+initfuncionamento();
+initfetchAnimais();
+initFetchBitcoin();
