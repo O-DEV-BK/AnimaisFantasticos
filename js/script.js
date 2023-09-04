@@ -7,9 +7,8 @@ import initToolTip from './modules/tooltip.js';
 import initDropdownMenu from './modules/dopdown-menu.js';
 import initiMenuMobile from './modules/menu-mobile.js';
 import initfuncionamento from './modules/funcionamento.js';
-import initfetchAnimais from'./modules/fetch-animais.js';
+import initfetchAnimais from './modules/fetch-animais.js';
 import initFetchBitcoin from './modules/fetch-bitcoin.js';
-
 
 initScrollSuave();
 initAnimacaoScroll();

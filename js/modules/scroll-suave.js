@@ -10,8 +10,8 @@ export default function initScrollSuave() {
       block: 'start',
     });
   }
+
   linksinternos.forEach((link) => {
     link.addEventListener('click', scrolltosection);
-  }
-  )
+  });
 }
