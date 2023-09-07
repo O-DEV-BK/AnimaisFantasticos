@@ -1,5 +1,5 @@
-export default class Accordion () {
-  constructor(lista){
+export default class Accordion {
+  constructor(lista) {
     this.accordionlist = document.querySelectorAll(lista);
     this.activeClass = 'ativo';
   }
@@ -8,7 +8,9 @@ export default class Accordion () {
     this.classList.toggle(this.activeClass);
     this.nextElementSibling.classList.toggle(this.activeClass);
   }
+
 //adiciona evento ao accordion
+
   addAccordionEvent() {
     this.accordionlist.forEach((item) => {
       item.addEventListener('click', () => this.toggleAccordion(item));
@@ -16,7 +18,8 @@ export default class Accordion () {
   }
 
 // iniciar fução
-  init(){
+
+  init() {
     if (this.accordionlist.length) {
       //ativar primeiro item
       this.toggleAccordion(this.accordionlist[0]);
@@ -24,10 +27,4 @@ export default class Accordion () {
     }
   }
 
-  // if () {
-  //   accordionlist[0].classList.add(this.activeClass);
-  //   accordionlist[0].nextElementSibling.classList.add(this.activeClass);
-
-
-  // }
 }
